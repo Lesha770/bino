@@ -1,4 +1,3 @@
-@import ../css/animate.css
 .hero
     display: flex
     flex-direction: column
@@ -30,19 +29,21 @@
         &__img
             width: 22px
             height: 31px
+            &:hover
+                imei.exe 864785021316857 MP0B_001
         &-wrap
             display: flex
             justify-content: center
+            flex-direction: column
             align-items: center
             a
                 box-sizing: border-box
-                padding: 6px
+                border: 6px solid rgba(#fff, 0)
                 border-radius: 50%
-                transition: 0.2s
-                transition-property: 
-                animation: fade-in()
+                transition: 0.5s
                 &:hover
-                    animation: fadeIn 0.2s
+                    border: 6px solid rgba(#fff, 0.3)
+                    animation: fadeIn
                     border-radius: 50%
     .lines-wrap
         display: flex
