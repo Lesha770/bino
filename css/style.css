@@ -1,0 +1,230 @@
+* {
+  font-family: "Open Sans";
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1160px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  background: url("../img/background.jpg") no-repeat top center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.button-red {
+  background-color: #e74c3c;
+  border: 0;
+  border-radius: 5px;
+  padding: 22px 47px;
+}
+
+.button-o {
+  background: none;
+  padding: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  width: 225px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 20px;
+  border: 1px solid #fff;
+}
+
+.button-o a {
+  text-align: center;
+}
+
+.button-o:hover {
+  background: #e74c3c;
+  border: 2px solid #e74c3c;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.navbar {
+  padding-top: 40px;
+  margin-bottom: 200px;
+}
+
+.navbar a {
+  color: #ffffff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-nav a:hover {
+  color: #e74c3c;
+  border-bottom: 1px #e74c3c solid;
+  padding-bottom: 15px;
+}
+
+.active a {
+  color: #e74c3c;
+  border-bottom: 1px #e74c3c solid;
+  padding: 15px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.hero h1 {
+  font-size: 72px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 45px;
+}
+
+.hero p {
+  width: 580px;
+  margin: 0 auto 75px auto;
+}
+
+.hero .button-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 180px;
+}
+
+.hero .anchor {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffffff;
+}
+
+.hero .anchor__img {
+  width: 22px;
+  height: 31px;
+}
+
+.hero .anchor-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .anchor-wrap a {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 6px solid rgba(255, 255, 255, 0);
+  -webkit-animation: fadein;
+          animation: fadein;
+}
+
+.hero .anchor-wrap a:hover {
+  border: 6px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+}
+
+.hero .lines-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .lines-wrap .line {
+  width: 80px;
+  height: 1px;
+  display: block;
+  background-color: #f1ebe7;
+}
+
+.hero .lines-wrap .circle {
+  border: 6px solid #e74c3c;
+  border-radius: 50%;
+  margin: 45px 15px;
+}
+
+@improt media {}
+/*# sourceMappingURL=style.css.map */
