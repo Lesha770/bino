@@ -6,17 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="sass/test.css">
-    <link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
-    <div class="box">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, exercitationem.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, exercitationem.</p>
+    <div class="wrapper">
+        <a href="">
+            <div id="box1" class="box">loremru3</div>
+        </a>
+        <a href="">
+            <div id="box2" class="box">loremru3</div>
+        </a>
+        <a href="">
+            <div id="box3" class="box">loremru3</div>
+        </a>
+        <a href="">
+            <div id="box4" class="box">loremru3</div>
+        </a>
     </div>
-    <a href="index.html">baAAAAAAAAAAAck</a>
+
+    <style>
+        .wrapper {
+            background-color: #aaa;
+            height: 8000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center
+        }
+    </style>
+
+    <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+    <script>
+        $(".box").click(function scrollTo () {
+            console.log('123')
+            $('html, body').animate({
+                var: ofefset = 0,
+                scrollTop: $('#box3').offset().top - ofefset
+            }, 1200)
+            return false
+        })
+        
+    </script>
 </body>
-<script src="js/jquery-3.4.0.min.js"></script>
-<script src="js/main.js"></script>
 </html>

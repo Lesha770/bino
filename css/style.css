@@ -999,6 +999,10 @@ button {
   z-index: 10;
 }
 
+.our-pricing .price-wrap .price a {
+  margin-bottom: 50px;
+}
+
 .our-pricing .price-wrap .price .amout-wrap {
   width: 150px;
   height: 150px;
@@ -1129,6 +1133,11 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.blog .title-wrap {
+  margin-top: 150px;
+  margin-bottom: 70px;
 }
 
 .blog .row {
