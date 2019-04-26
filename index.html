@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Source+Sans+Pro:400,700" rel="stylesheet">
 </head>
 
@@ -17,19 +18,18 @@
     <header>
         <div class="container">
             <div class="navbar">
-
                 <div class="navbar-wrap">
                     <div class="navbar-logo">
                         <a href="test.html"><img src="img/logo.png" alt="logo"></a>
                     </div>
                     <div class="navbar-nav">
-                        <div class="navbar-nav__item active"><a href="">Home</a></div>
-                        <div class="navbar-nav__item"><a href="">About us</a></div>
-                        <div class="navbar-nav__item"><a href="">Portfolio</a></div>
-                        <div class="navbar-nav__item"><a href="">Pricing</a></div>
-                        <div class="navbar-nav__item"><a href="">Team</a></div>
-                        <div class="navbar-nav__item"><a href="">Blog</a></div>
-                        <div class="navbar-nav__item"><a href="">Contact</a></div>
+                        <div class="navbar-nav__item active"><a href="javascript://0" onclink="scrollTo(#)">Home</a></div>
+                        <div class="navbar-nav__item"><a href="javascript://0" onclink="scrollTo(#)">About us</a></div>
+                        <div class="navbar-nav__item"><a href="javascript://0" onclink="scrollTo ('#recent-works')">Portfolio</a></div>
+                        <div class="navbar-nav__item"><a href="javascript://0" onclink="scrollTo(#)">Pricing</a></div>
+                        <div class="navbar-nav__item"><a href="javascript://0" onclink="scrollTo(#)">integrations</a></div>
+                        <div class="navbar-nav__item"><a href="javascript://0" onclink="scrollTo(#)">Blog</a></div>
+                        <div class="navbar-nav__item"><a href="javascript://0" onclink="scrollTo(#)">Contact</a></div>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
             </span>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             <div class="button-wrap">
-                <a href="#" class="button-link"><button class="button button-o"><span>Get started now</span></button></a>
+                <a href="https://google.com" class="button-link"><button class="button button-o"><span>Get started now</span></button></a>
                 <a href="#" class="button-link"><button class="button button-o"><span>Learn more</span></button></a>
             </div>
             <div class="anchor-wrap">
@@ -151,7 +151,7 @@
             </div>
         </div>
     </section>
-    <section class="recent-works">
+    <section class="recent-works" id="recent-works">
         <div class="container">
             <div class="title-wrap">
                 <h1>RECENT WORKS</h1>
@@ -281,10 +281,127 @@
             </div>
         </div>
     </section>
-    <section class="our-pricing" id="our-pricing">
+    <div class="container-fluid">
+        <section class="our-pricing" id="our-pricing">
+            <div class="title-wrap">
+                <h1>OUR PRICING</h1>
+                <h4>A 30 days free trial for all. A brief story about how this process works, keep an eye till the end.</h4>
+                <div class="lines-wrap">
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="price-wrap">
+                    <div class="price">
+                        <h3>STARTER</h3>
+                        <div class="amout-bg">
+                            <div class="amout-wrap">
+                                <div class="amout">$19</div>
+                                <span>per month</span>
+                            </div>
+                        </div>
+                        <p>Competition Analysis Methods <br> All Ranked URLs <br> International Support System <br> Social Media Tracking</p>
+                        <a href="#"><button class="button button-painted button-gray"><span>Choose plan</span></button></a>
+                    </div>
+                    <div class="price price-red">
+                        <h3>premium</h3>
+                        <div class="amout-bg">
+                            <div class="amout-wrap">
+                                <div class="amout">$39</div>
+                                <span>per month</span>
+                            </div>
+                        </div>
+                        <p>Competition Analysis Methods <br> All Ranked URLs <br> International Support System <br> Social Media Tracking</p>
+                        <a href="#"><button class="button button-painted"><span>Choose plan</span></button></a>
+                    </div>
+                    <div class="price">
+                        <h3>buisness</h3>
+                        <div class="amout-bg">
+                            <div class="amout-wrap">
+                                <div class="amout">$99</div>
+                                <span>per month</span>
+                            </div>
+                        </div>
+                        <p>Competition Analysis Methods <br> All Ranked URLs <br> International Support System <br> Social Media Tracking</p>
+                        <a href="#"><button class="button button-painted button-gray"><span>Choose plan</span></button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="integrations" id="integrations">
+        <div class="container-fluid">
+            <div class="title-wrap">
+                <h1>Great Integrations with Others</h1>
+                <h4>Suspendisse sed eros mollis, tincidunt felis eget, interdum erat. </h4>
+                <h4>sit amet odio eu est aliquet euismod a a urna. Proin eu urna suscipit, dictum quam nec.</h4>
+                </h4>
+                <div class="lines-wrap">
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="company"><img src="img/company.png" alt=""></div>
+                <div class="company"><img src="img/company.png" alt=""></div>
+                <div class="company"><img src="img/company.png" alt=""></div>
+                <div class="company"><img src="img/company.png" alt=""></div>
+                <div class="company"><img src="img/company.png" alt=""></div>
+            </div>
+            <div class="row">
+                <div class="company"><img src="img/company.png" alt=""></div>
+                <div class="company"><img src="img/company.png" alt=""></div>
+                <div class="company"><img src="img/company.png" alt=""></div>
+                <div class="company"><img src="img/company.png" alt=""></div>
+                <div class="company"><img src="img/company.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="blog" id="blog">
+        <div class="row">
+            <div class="img"><img src="img/blog-bg.jpg" alt=""></div>
+            <div class="desc">
+                <h4>art / t-shirt</h4>
+                <h3>T-SHIRT DESIGN</h3>
+                <div class="line"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+                <a href="">Read More >></a>
+            </div>
+            <div class="img"><img src="img/blog-bg.jpg" alt=""></div>
+            <div class="desc">
+                <h4>art / t-shirt</h4>
+                <h3>T-SHIRT DESIGN</h3>
+                <div class="line"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+                <a href="">Read More >></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="desc">
+                <h4>art / t-shirt</h4>
+                <h3>T-SHIRT DESIGN</h3>
+                <div class="line"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+                <a href="">Read More >></a>
+            </div>
+            <div class="img"><img src="img/blog-bg.jpg" alt=""></div>
+            <div class="desc">
+                <h4>art / t-shirt</h4>
+                <h3>T-SHIRT DESIGN</h3>
+                <div class="line"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+                <a href="">Read More >></a>
+            </div>
+            <div class="img"><img src="img/blog-bg.jpg" alt=""></div>
+        </div>
+    </section>
+    <section class="keep-in" id="keep-in">+
         <div class="title-wrap">
-            <h1>OUR PRICING</h1>
-            <h4>A 30 days free trial for all. A brief story about how this process works, keep an eye till the end.</h4>
+            <h1>kEEP IN TOUCH</h1>
+            <h4>Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna suscipit, dictum quam nec. </h4>
             <div class="lines-wrap">
                 <div class="line"></div>
                 <div class="circle"></div>
@@ -292,45 +409,84 @@
             </div>
         </div>
         <div class="container">
-            <div class="price-wrap">
-                <div class="price">
-                    <h3>STARTER</h3>
-                    <div class="amout-bg">
-                        <div class="amout-wrap">
-                            <div class="amout">$19</div>
-                            <span>per month</span>
-                        </div>
-                    </div>
-                    <p>Competition Analysis Methods <br> All Ranked URLs <br> International Support System <br> Social Media Tracking</p>
-                    <a href="#"><button class="button button-painted button-gray"><span>Choose plan</span></button></a>
+            <div class="wraper" id="wraper">
+                <div class="contact">
+                    <h3>OUR ADDRESS</h3>
+                    <span>House #13, Streat road, Sydney<br> 2310 Australia</span>
                 </div>
-                <div class="price price-red">
-                    <h3>premium</h3>
-                    <div class="amout-bg">
-                        <div class="amout-wrap">
-                            <div class="amout">$39</div>
-                            <span>per month</span>
-                        </div>
-                    </div>
-                    <p>Competition Analysis Methods <br> All Ranked URLs <br> International Support System <br> Social Media Tracking</p>
-                    <a href="#"><button class="button button-painted"><span>Choose plan</span></button></a>
+                <div class="contact">
+                    <h3>CALL US</h3>
+                    <span>+ 880 168 109 1425<br>+ 0216809142</span>
                 </div>
-                <div class="price">
-                    <h3>buisness</h3>
-                    <div class="amout-bg">
-                        <div class="amout-wrap">
-                            <div class="amout">$99</div>
-                            <span>per month</span>
-                        </div>
-                    </div>
-                    <p>Competition Analysis Methods <br> All Ranked URLs <br> International Support System <br> Social Media Tracking</p>
-                    <a href="#"><button class="button button-painted button-gray"><span>Choose plan</span></button></a>
+                <div class="contact">
+                    <h3>EMAIL US</h3>
+                    <span>contactus@email.com</span>
                 </div>
+            </div>
+            <div class="form" id="form">
+                <textarea type="text" class="textbox" placeholder="Name"></textarea>
+                <textarea type="text" class="textbox" placeholder="Email"></textarea>
+                <textarea type="text" class="textbox" placeholder="Subject"></textarea>
+                <textarea type="text" class="textbox" placeholder="Message"></textarea>
+                <a href="#"><button class="button button-painted"><span>Start free trial</span></button></a>
             </div>
         </div>
     </section>
+    <footer class="footer" id="footer">
+        <h2>Let's Get Started Now. <span>It's FREE!</span></h2>
+        <p>30 day free trial. Free plan allows up to 2 projects. Pay if you need more. Cancel anytime. No catches.</p>
+        <a href="#"><button class="button button-painted"><span>Start free trial</span></button></a>
+    </footer>
+    <nav class="nav" id="nav">
+        <div class="container">
+            <ul>
+                <a href="">
+                    <li>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <ion-icon name="logo-rss"></ion-icon>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <ion-icon name="logo-googleplus"></ion-icon>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <ion-icon name="logo-skype"></ion-icon>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <ion-icon name="logo-vimeo"></ion-icon>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <ion-icon name="logo-tumblr"></ion-icon>
+                    </li>
+                </a>
+            </ul>
+            <h3>Kazi Erfan © All Rights Reserved</h3>
+        </div>
+    </nav>
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
-<script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
 
 </html>

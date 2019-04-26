@@ -13,3 +13,15 @@ $(".work-img").mouseleave(function(){
     $(".work-img-wrap").css("background-color", "0")
     $(".work-hide").css("opacity", "0")
 })
+$(function(){
+    var div1 = $('#wraper')
+    console.log(div1)
+    var height = div1.height()
+    $('#form').css('height', height)
+})
+function scrollTo(id){
+    console.log('нажали')
+    $('html, body').animate ({
+        scrollTop: $(id).offset ().top
+    }, 400)
+}
